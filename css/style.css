@@ -1,0 +1,22 @@
+ 
+body{
+    background-color: pink;
+    
+}
+figure{
+    border-style: ridge;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color: 5px white;
+    background-image: url("../img/pink-wrinkled-paper.jpeg");
+    padding-top: 50px;
+  
+}
+article{
+    text-align: center;
+}
+figcaption{
+    margin-left: 40px;
+    margin-right: 40px;
+}
