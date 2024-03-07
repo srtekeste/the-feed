@@ -12,11 +12,7 @@ header { /*"THE FEED*/
     font-family: 'Ransom';
     font-size: 100px;
     padding-top: 20px;
-    padding-bottom: 100px; /* Adjust this value as needed */
-}
-
-.custom-cursor {
-    cursor: url('../img/kissmark.png'), auto; /* 'auto' is the fallback */
+    padding-bottom: 100px; 
 }
 
 body{
@@ -30,14 +26,14 @@ body{
     width: 100%;
 }
 
-h1 {
+h1 { /*Labels above videos*/
     color: white;
     font-family: "canada-type-gibson", sans-serif;
     font-weight: 700;
     font-style: italic;
 }
 
-.grid-item .text-box {
+.grid-item .text-box { /*text box font*/
     font-family: 'canada-type-gibson', sans-serif;
     font-weight: 200;
     font-style: italic;
@@ -79,25 +75,17 @@ h1 {
 
 .text-box {
     width: 100%; /* Takes the full width of the grid item */
-    padding: 10px; /* Adds some internal space */
+    padding: 10px;
     background-color: #fff; 
     margin-top: 10px; /* Adds space between the video/caption and the text box */
- 
-    text-align: left;
-}
-a:hover {
-    cursor: url('../img/kissmark.png'), pointer;
-}
-a:visited {
-    color: purple; 
 }
 
 .text-box {
-    border: 3px solid pink; /* Black border */
-    padding: 10px; /* Spacing inside the box */
+    border: 3px solid pink; 
+    padding: 10px; 
     margin: 10px 0; /* Spacing outside the box */
     background-color: #f0f0f0; /* Light gray background */
-    width: 300px; /* Set the width of the text box */
+    width: 300px; 
 }
 
 .text  {
