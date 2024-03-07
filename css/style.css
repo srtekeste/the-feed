@@ -1,4 +1,8 @@
- 
+header {
+    padding-top: 20px;
+    padding-bottom: 20px; /* Adjust this value as needed */
+}
+
 body{
     background-repeat: no-repeat;
     background-size: cover;
