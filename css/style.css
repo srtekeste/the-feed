@@ -1,22 +1,143 @@
  
 body{
-    background-color: pink;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%, 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.grid-container { /* this is my attempt at making a grid*/
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 600px)); /* 
+    Creates three columns */
+    grid-template-rows: repeat(4, auto); /* Creates four rows */
+    grid-gap: 40px; /* Spacing between grid items */
+    justify-content: center; /* Center grid horizontally */
+    align-content: center; /* Center grid vertically */
+    height: auto; /* Adjust height as needed */
+    width: auto; /* Adjust width as needed */
+    margin: auto;
+  
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+   
+  }
+  .grid-item video {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  
+
+.text-box {
+    width: 100%; /* Takes the full width of the grid item */
+    padding: 10px; /* Adds some internal space */
+    background-color: #fff; /* Optional: background color */
+    margin-top: 10px; /* Adds space between the video/caption and the text box */
+    /* Add additional styling as needed */
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+figure video {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+.c
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+.container {
+    position:   relative;
+}
+
+.video1{
+    position: absolute;
+    left: -100px;
+}
+.center { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150%
+}
+figure {
+    flex: 1; 
+    margin: 10px;
 }
 figure{
-    border-style: ridge;
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-color: 5px white;
-    background-image: url("../img/pink-wrinkled-paper.jpeg");
-    padding-top: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   
 }
-article{
+figcaption {
     text-align: center;
+    margin-top: 10px;
 }
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 figcaption{
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+.text-box {
+    border: 1px solid #000; /* Black border */
+    padding: 10px; /* Spacing inside the box */
+    margin: 10px 0; /* Spacing outside the box */
+    background-color: #f0f0f0; /* Light gray background */
+    width: 300px; /* Set the width of the text box */
+}
+
+.text  {
+    display: flex;
+    justify-content: space-between; /* This spaces the items evenly */
+}
+
+
+
